@@ -1,0 +1,132 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+
+
+nav{
+  width: 99.5%;
+  height: 20vh;
+  background-color:#1A4D2E;
+  text-align: center;
+}
+
+nav ul{
+list-style: none;
+display: block;
+width: 100%;
+
+}
+
+
+
+.active{
+  text-decoration: underline;
+  color:#E8751A;
+}
+
+nav ul li{
+  display: inline-block;
+  width: 12%;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 500 ;
+  font-size: 14px;
+  margin: auto;
+}
+
+nav ul li img{
+  width: 300px;
+  margin-bottom: 15px;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #FFBF00;
+}
+nav ul li a:hover{
+  color: #E8751A;
+  position: relative;
+  bottom: 2px;
+  transition: ease-in 0.5s;
+}
+
+nav ul li .button{
+  width: 100px;
+  height: 33px;
+  border-radius: 15px;
+  color: #FFBF00;
+  border-style: hidden;
+  box-shadow: 1px 1px 1px 1px #FFBF00;
+  background-color: #114111;
+}
+
+nav ul li .button:hover{
+  transition: ease-in 0.5s;
+  color: #114111;
+  background-color: #FFBF00;
+}
+
+#form{
+  height: 50vh !important ;
+  border: 0.5px solid #327c32 !important;
+  border-radius: 25px;
+  border-top: 15px solid #1A4D2E !important;
+  color: #ad8302;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400 ;
+}
+
+
+
+
+
+
+.button{
+  width: 200px;
+  height: 35px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400 ;
+  background-color: #1A4D2E;
+  color: #FFBF00;
+  border-radius: 10px;
+  margin-right:300px ;
+}
+
+
+
+
+
+footer {
+  background-color: #1A4D2E;
+  color: #ffffff;
+  height: 25vh;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400 ;
+  width: 99.3%;
+  margin-right: 1.5px;
+
+}
+
+footer .col{
+margin-top: 20px;
+}
+
+footer .part-1{
+  margin-right: 100px;
+}
+footer .part-2{
+  margin-right: 300px;
+  text-align: center;
+}
+footer h2{
+  color: #FFBF00;
+  margin-bottom: 50px;
+}
+
+.icons i{
+  padding: 10px;
+  font-size: 25px;
+}
